@@ -9,7 +9,11 @@ Só possui  as propriedades título (title) e corpo (body) editáveis.
 Também existem propriedades chamadas created_at e updated_at que são geradas/atualizadas automaticamente pelo framework.
 
 ## Rotas disponívels:
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> 34a9d8b568634fbd3d12f41e0de997b5990d4a03
 +-----------+------------------------+-----------------+------------------------------------------------+
 | Method    | URI                    | Name            | Action                                         |
 |-----------+------------------------+-----------------+------------------------------------------------+
@@ -22,4 +26,7 @@ Também existem propriedades chamadas created_at e updated_at que são geradas/a
 | GET|HEAD  | article/{article}      | article.show    | App\Http\Controllers\ArticleController@show    |
 | GET|HEAD  | article/{article}/edit | article.edit    | App\Http\Controllers\ArticleController@edit    |
 +-----------+------------------------+-----------------+------------------------------------------------+
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 34a9d8b568634fbd3d12f41e0de997b5990d4a03

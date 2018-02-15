@@ -50,13 +50,14 @@ Baixando via Git
 
 `git clone https://github.com/edo9k/restful-test`
 
+Instale os pacotes usados no projeto via composer
+`composer install`
+
 Na raiz do projeto, copie o arquivo `.env.example` para `.env`. (`cp .env.example .env`)
 
 Rode o comando abaixo apra setar a APP_KEY do projeto.
 `php artisan key:gererate`
 
-Depois instale os pacotes usados no projeto via composer
-`composer install`
 
 Crie um banco MySQL vazio e um usuário que tenha permissões totais dentro desse banco. 
 ```
